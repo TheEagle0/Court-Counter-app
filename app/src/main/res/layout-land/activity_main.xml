@@ -203,7 +203,7 @@
             android:layout_below="@id/linear"
             android:layout_centerHorizontal="true"
             android:text="@string/reset"
-            android:textColor="@color/textColor3"
+            android:textColor="@color/textColor"
             android:textStyle="bold" />
     </RelativeLayout>
 </ScrollView>
