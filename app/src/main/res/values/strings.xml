@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Court Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="three">+3\nField Goal</string>
+    <string name="free_throw">+1\nKick</string>
+    <string name="two">+2\nTackle</string>
+    <string name="_0">0</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">Reset</string>
+    <string name="six">+6\nTouchdown</string>
+    <string name="score_keeper">Score Keeper</string>
+    <string name="score_keeper">Score Keeper</string>
+</resources>
