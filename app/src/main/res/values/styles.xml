@@ -12,6 +12,14 @@
 
         </style>
 
+    <style name="ScoreButtons">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginBottom">@dimen/dim_8dp</item>
+        <item name="android:layout_marginStart">@dimen/dim_24dp</item>
+        <item name="android:layout_marginEnd">@dimen/dim_24dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
     </resources>
 
 

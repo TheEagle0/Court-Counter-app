@@ -11,7 +11,7 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:id="@+id/linear"
+            android:id="@+id/linear_parent_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
@@ -48,52 +48,32 @@
 
                 <Button
                     android:id="@+id/six"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
                     android:layout_marginTop="@dimen/dim_24dp"
-                    android:text="@string/six"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/six" />
 
                 <Button
                     android:id="@+id/three"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
-                    android:text="@string/three"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/three" />
 
                 <Button
                     android:id="@+id/tackle"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
-                    android:text="@string/two"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/two" />
 
                 <Button
                     android:id="@+id/kick"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
-                    android:text="@string/free_throw"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/free_throw" />
             </LinearLayout>
 
             <View
@@ -115,7 +95,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="@dimen/dim_16dp"
-                    android:background="@color/back"
                     android:fontFamily="sans-serif-medium"
                     android:text="@string/team_b"
                     android:textColor="@color/textColor"
@@ -136,52 +115,33 @@
 
                 <Button
                     android:id="@+id/six_2"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
                     android:layout_marginTop="@dimen/dim_24dp"
-                    android:text="@string/six"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/six" />
 
                 <Button
                     android:id="@+id/three_2"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
-                    android:text="@string/three"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/three" />
 
                 <Button
                     android:id="@+id/tackle_2"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
-                    android:text="@string/two"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:text="@string/two" />
 
                 <Button
                     android:id="@+id/kick_2"
+                    style="@style/ScoreButtons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/dim_8dp"
-                    android:layout_marginEnd="@dimen/dim_24dp"
-                    android:layout_marginStart="@dimen/dim_24dp"
                     android:text="@string/free_throw"
-                    android:textAllCaps="false"
-                    android:textColor="@color/textColor" />
+                    android:textAllCaps="false" />
             </LinearLayout>
 
         </LinearLayout>
@@ -191,7 +151,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_below="@id/linear"
+            android:layout_below="@id/linear_parent_1"
             android:layout_centerHorizontal="true"
             android:text="@string/reset"
             android:textColor="@color/textColor"

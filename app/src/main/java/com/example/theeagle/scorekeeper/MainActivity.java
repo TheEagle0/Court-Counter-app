@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int scoreA;
     private int scoreB;
     TextView scoreViewA, scoreViewB;
-    Button buttonAdd6A, buttonAdd3A, buttonAdd2A, buttonKickA, buttonAdd6B, buttonAdd3B, buttonAdd2B, buttonKickB, rest;
+    Button buttonAdd6A, buttonAdd3A, buttonAdd2A, buttonKickA, buttonAdd6B,
+            buttonAdd3B, buttonAdd2B, buttonKickB, rest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
